@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Merienda', cursive;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px;
+    color: white;
+    filter: invert(1);
+}
+#logo img{
+    height: 33px;
+    color: white;
+}
+
+#navbar{
+    background-color: rgb(243, 124, 124);
+    padding: 12px 12px;
+    box-sizing: border-box;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar  li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 24px;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: black
+}
+.box::before{
+    content: "";
+    background: center / cover no-repeat url(/static/bg.jpg);
+    position: absolute;
+    height: 327px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 39px
+}
+#intoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+#mission{
+    height: 280px;
+}
+#mission h2{
+    text-align: center;
+    margin-top: 9px;
+}
+#mission .card{
+    border: 2px solid black;
+    border-radius: 11px;
+    width: 362px;
+    height: 225px;
+    display: inline-block;
+    margin: 2px 25px;
+    background-color: antiquewhite;
+    padding: 1px 6px;
+} 
+.card h3{
+    text-align: center;
+    margin: 12px 12px;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img{
+    height: 100px;
+    margin: 20px;
+}
+#sponsorsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7d3131;
+    height: 354px;
+    color: wheat;
+}
+#sponsorsSection h3{
+    margin: 12px;
+    font-size: 26px;
+}
+#sponsors{
+    height: 333px;
+    display: flex;
+    flex-direction: row;
+}
+#sponsors img{
+    margin: 57px 22px;
+    height: 134px;
+}
+#intoSection div{
+    font-size: 31px;
+    margin: 3px 5px;
+}
+#intoSection div.small{
+    font-size: 21px;
+}
+#footer{
+    padding: 13px 12px;
+    background-color: black;
+    color: white;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
